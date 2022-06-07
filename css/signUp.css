@@ -1,0 +1,52 @@
+body{
+    font-family: 'Gaegu', cursive;
+    font-size: 20px;
+    background-image: url("../sorce/bgimg7.jpeg");
+    /* background-color: rgba(202, 202, 202, 0.253); */
+}
+
+#loginbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    margin: 150px auto;
+    background-color: rgba(255, 255, 255, 0.47);
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10%;
+    padding: 0 15px;
+}
+
+ul{
+    padding-left: 0px;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 5px;
+}
+
+li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+li:first-child{
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+p{
+    font-size: 40px;
+}

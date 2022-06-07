@@ -1,0 +1,61 @@
+body{
+    font-family: 'Gaegu', cursive;
+    font-size: 20px;
+    background-image: url("../sorce/bgimg7.jpeg");
+    /* background-color: rgba(202, 202, 202, 0.253); */
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#inputbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 600px;
+    height: 650px;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.47);
+}
+
+.form-select{
+    display: inline-block !important;
+    width: 100px;
+}
+
+label{
+    margin-right: 45px;
+}
+
+label:nth-child(1){
+    margin-right: 60px;
+}
+
+#password{
+    margin-right: 5px;
+}
+
+#e-mail{
+    margin-right: 40px;
+}
+
+#ssn{
+    margin-right: 15px;
+}
+
+#phonenum{
+    margin-right: 35px;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 10%;
+    padding: 0 15px;
+}

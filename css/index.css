@@ -1,0 +1,169 @@
+/* 공통사항 */
+body{
+    font-family: 'Gaegu', cursive;
+    font-size: 20px;
+    background-image: url("../sorce/bgimg7.jpeg");
+    /* background-color: rgba(202, 202, 202, 0.253); */
+}
+
+.navbar-brand{
+    font-size: 34px;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h2{
+    font-size: 44px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+h4{
+    font-size: 40px;
+    padding-top: 28px;
+    margin: 10px 0;
+}
+
+h6{
+    font-size: 32px;
+}
+
+span{
+    font-size: 20px;
+}
+
+.border-bottom{
+    padding-top: 5em !important;
+    padding-bottom: 6em !important;
+    border-bottom: 1px dashed rgb(4, 3, 3) !important;
+}
+
+/* menubar */
+
+#menu{
+    border-radius: 3%;
+    position: fixed;
+    z-index: 999;
+}
+
+#btnSign{
+    margin-left: 20.5em;
+}
+
+/* header */
+
+#greeting{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* Introduce */
+
+.cat{
+    width: 120px;
+    border-radius: 30%;
+    margin-left: 35px;
+}
+
+.cat:hover{
+    transform: scale(3, 3);
+}
+
+#introbox1{
+    background-color: rgba(255, 255, 255, 0.914) !important;
+    box-shadow: 2px 7px 10px 3px rgba(50, 50, 50, 0.575);
+}
+#introbox2{
+    box-shadow: 2px 7px 10px 3px rgba(50, 50, 50, 0.575);
+}
+#introbox3{
+    background-color: rgba(207, 207, 207, 0.735) !important;
+    box-shadow: 2px 7px 10px 3px rgba(50, 50, 50, 0.575);
+}
+
+#pinset{
+    display: block;
+    margin: 0px auto;
+    width: 28px;
+}
+
+/* Interesting */
+
+.card{
+    display: inline-block;
+    margin: 10px;
+    width: 12.5rem;
+    background-color: rgb(248, 246, 226);
+    font-size: 16px;
+}
+
+#f_index3>img{
+    margin: 15px 0;
+    width: 15em;
+}
+
+#f_index4>img{
+    display: inline-flex;
+    width: 110px;
+    margin: -80px 55px -120px 55px;
+}
+#f_index5>img{
+    display: inline-flex;
+    width: 110px;
+    margin: -80px 55px -120px 55px;
+}
+
+#fashion{
+    text-align: center;
+}
+
+/* roadmap */
+
+#roadmap1>h4{
+    display: inline-block;
+}
+
+#roadmap2>h4{
+    display: inline-block;
+}
+
+#roadmap3>h4{
+    display: inline-block;
+}
+
+#roadmap1>img{
+    width: 32px;
+    margin-bottom: 20px;
+}
+
+#roadmap2>img{
+    width: 32px;
+    margin-bottom: 20px;
+}
+
+#roadmap3>img{
+    width: 32px;
+    margin-bottom: 20px;
+}
+
+.job{
+    font-size: 26px;
+}
+
+#roadmap2{
+    text-align: end;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    color: black;
+}
